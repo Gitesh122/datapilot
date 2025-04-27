@@ -1,0 +1,35 @@
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+plotly
+import streamlit as st
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score
+import plotly.express as px
+import plotly.graph_objects as go
+import plotly.figure_factory as ff
+import plotly.subplots as sp
+import plotly.io as pio
+import plotly.offline as pyo
+import plotly.graph_objects as go
+import plotly.express as px
+import plotly.subplots as sp
+import plotly.io as pio
+import plotly.offline as pyo
+import plotly.graph_objects as go
+import plotly.express as px
+import plotly.subplots as sp
+import plotly.io as pio
+import plotly.offline as pyo
+import plotly.graph_objects as go
+import plotly.express as px
+ultrafast = True
+pio.renderers.default = "browser" if ultrafast else "notebook"
